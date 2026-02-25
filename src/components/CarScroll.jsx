@@ -26,7 +26,7 @@ export default function CarScroll() {
 
       // Car move
       tl.to(car.current, {
-        x: window.innerWidth - 550,
+        x: window.innerWidth - 250,
         ease: "none"
       }, 0)
 
@@ -43,7 +43,7 @@ export default function CarScroll() {
   }, [])
 
   return (
-    <div className="h-[150vh] bg-black">
+    <div className="h-[200vh] bg-black">
 
       <section
         ref={section}
