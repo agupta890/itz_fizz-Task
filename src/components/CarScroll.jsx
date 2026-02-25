@@ -26,7 +26,7 @@ export default function CarScroll() {
 
       // Car move
       tl.to(car.current, {
-        x: window.innerWidth - 250,
+        x: window.innerWidth - 550,
         ease: "none"
       }, 0)
 
